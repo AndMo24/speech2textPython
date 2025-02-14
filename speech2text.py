@@ -16,7 +16,7 @@ def record_text():
 
                 audio2 = r.listen(source2)
 
-                MyText = r.recognize_amazon(audio2,file_key='prueba4',job_name='prueba4',bucket_name="moand4bucket",region="us-east-2", access_key_id="AKIASBGQLFQKKZL7RXPS", secret_access_key="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")
+                MyText = r.recognize_amazon(audio2,file_key='prueba4',job_name='prueba4',bucket_name="moand4bucket",region="us-east-2", access_key_id="asd", secret_access_key="asd++asd")
 
                 return MyText
 
